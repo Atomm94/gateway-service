@@ -1,0 +1,37 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atomm94/gateway-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atomm94/gateway-service/issues"
+  },
+  "homepage": "https://github.com/Atomm94/gateway-service#readme",
+  "dependencies": {
+    "@nestjs-mod/pino": "^1.16.1",
+    "@nestjs/config": "^4.0.2",
+    "@nestjs/microservices": "^11.1.8",
+    "@opensearch-project/opensearch": "^3.5.1",
+    "@prisma/client": "^6.18.0",
+    "amqplib": "^0.10.9",
+    "aws-sdk": "^2.1692.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "ioredis": "^5.8.2",
+    "nestjs-pino": "^4.4.1",
+    "pino": "^10.1.0",
+    "pino-pretty": "^13.1.2"
+  },
+  "devDependencies": {
+    "prisma": "^6.18.0"
+  }
+}
